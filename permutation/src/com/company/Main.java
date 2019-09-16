@@ -10,8 +10,8 @@ import java.lang.reflect.Array;
 public class Main {
 
     public static void printArray(Object[] arr){
-        for (int i = 0 ; i < arr.length ; i++) {
-            System.out.print(arr[i] + " ");
+        for (Object i : arr) {
+            System.out.print(i + " ");
         }
         System.out.print('\n');
     }
